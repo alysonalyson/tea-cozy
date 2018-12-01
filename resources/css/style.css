@@ -1,0 +1,12 @@
+html {
+  background-color: black;
+  font-family: Verdana, sans-serif;
+  color: seashell;
+  font-size: 22px;
+}
+
+header {
+  position: fixed;
+  height: 69px;
+  width 100%;
+}
