@@ -60,8 +60,6 @@ header a {
 }
 
 .gallery {
-  position: relative;
-  top: 100px;
   width: 1000px;
 }
 
@@ -70,4 +68,24 @@ header a {
   margin: 10px;
   height: 200px;
   width: 300px;
+}
+
+#locations {
+  position: relative;
+  top: 150px;
+  background-image: url("../images/locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 120px;
+}
+
+.square {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin: 15px 20px;
 }
