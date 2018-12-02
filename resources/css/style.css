@@ -3,6 +3,7 @@ html {
   font-family: Verdana, sans-serif;
   color: seashell;
   font-size: 22px;
+  opacity: 0.9;
 }
 
 header {
@@ -88,4 +89,15 @@ header a {
   width: 300px;
   background-color: black;
   margin: 15px 20px;
+}
+
+.footer {
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
+.copy {
+  text-align: left;
+  padding-left: 20px;
 }
