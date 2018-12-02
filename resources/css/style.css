@@ -8,5 +8,23 @@ html {
 header {
   position: fixed;
   height: 69px;
-  width 100%;
+  width: 100%;
+  display: inline-flex;
+  border-bottom: 1px solid seashell;
+}
+
+header nav {
+  display: inline-flex;
+  list-style-type: none;
+  padding-left: 650px;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+header a {
+  color: seashell;
+  padding: 10px 20px;
 }
