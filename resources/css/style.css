@@ -48,5 +48,26 @@ header a {
   top: 300px;
   background-color: black;
   text-align: center;
-  padding: 3px 0px;
+  padding: 1px 0px;
+}
+
+#featured {
+  position: relative;
+  top: 100px;
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.gallery {
+  position: relative;
+  top: 100px;
+  width: 1000px;
+}
+
+#featured img {
+  display: inline-flex;
+  margin: 10px;
+  height: 200px;
+  width: 300px;
 }
