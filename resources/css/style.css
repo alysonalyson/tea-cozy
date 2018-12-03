@@ -41,15 +41,18 @@ header a {
   height: 700px;
   width: 1200px;
   background-image: url("../images/mission-background.jpg");
+  display: flex;
   align-content: center;
 }
 
 .banner {
   position: relative;
   top: 300px;
+  width: 1200px;
+  height: 150px;
   background-color: black;
   text-align: center;
-  padding: 1px 0px;
+  align-content: center;
 }
 
 #featured {
