@@ -62,13 +62,18 @@ header a {
 
 .gallery {
   width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #featured img {
-  display: inline-flex;
-  margin: 10px;
   height: 200px;
   width: 300px;
+}
+
+.tile {
+  margin: 10px;
 }
 
 #locations {
